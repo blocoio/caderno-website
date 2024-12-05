@@ -1,0 +1,202 @@
+/* your styles go here */
+
+/* COMMON */
+
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 28px;
+    background-color: #F6FBF2;
+}
+
+@media (min-width: 992px) {
+    section {
+        padding: 40px 0 40px;
+    }
+}
+
+@media (max-width: 576px) {
+    section {
+        padding: 30px 0 30px 0;
+    }
+}
+
+.bg-center {
+  margin-bottom: 0;
+}
+
+a {
+    color: #FF5210;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: #FF5210;
+}
+
+/* NAVBAR */
+
+.navbar,
+.navbar.active {
+  padding-top: 0.5rem !important;
+  padding-bottom: 0.5rem !important;
+  background: #F6FBF2;
+}
+
+.nav-link {
+    font-weight: 900;
+    text-decoration: none;
+}
+
+.nav-link.active,
+.nav-link:focus {
+    color: #FF5210;
+}
+
+.nav-link:hover {
+    color: #FF5210;
+    border-color: #FF5210;
+}
+
+.scroll-top-btn {
+    background: #FF521080;
+}
+.scroll-top-btn:hover,
+.scroll-top-btn:focus {
+    background: #FF5210;
+}
+
+/* BUTTONS */
+
+.btn {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-size: 0.9rem;
+    font-weight: 900;
+    border: 2px solid transparent;
+    text-decoration: none;
+}
+
+.btn-primary {
+    background-color: #FF5210;
+    border-color: #FF5210;
+}
+
+.btn-primary:hover {
+    background-color: #FF5210;
+    border-color: #FF5210;
+}
+
+.btn-secondary {
+    color: #FF5210;
+    background-color: #F6FBF2;
+    border-color: #FF5210;
+}
+
+.btn-secondary:hover {
+    background-color: #FF5210;
+    border-color: #FF5210;
+    color: #FCFFFF;
+}
+
+/* TYPE */
+
+h1, .h1 {
+    font-family: "DM Sans", sans-serif;
+    font-size: 42px;
+    line-height: 52px;
+    font-feature-settings: 'ss01' off;
+}
+
+h2, .h2 {
+    font-family: "DM Sans", sans-serif;
+    font-size: 36px;
+    line-height: 42px;
+}
+
+h4, .h4 {
+    font-family: "DM Sans", sans-serif;
+    font-size: 28px;
+    line-height: 36px;
+}
+
+/* HOME */
+
+.device-background {
+  background-image: url("../img/device-background.png");
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: 100%;
+  z-index: -1;
+}
+
+.device-wrapper {
+  max-width: 240px;
+}
+
+.device[data-device="Pixel"][data-orientation="portrait"][data-color="white"] .screen {
+  top: 9.55%;
+  left: 4.3668122271%;
+  width: 91%;
+  height: 80%;
+}
+
+/* WHAT & WHY */
+
+.sofa-image {
+  max-width: 320px;
+}
+
+@media (max-width: 576px) {
+    .sofa-image {
+        display: block;
+        max-height: 250px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+.list-check li::before {
+    content: '⦿';
+    color: #FF5210;
+    vertical-align: text-top;
+}
+
+/* FAQ */
+
+@media (min-width: 576px) {
+    .faq-container {
+        position: relative;
+        background-image: url('../img/faq-background.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+}
+
+.faq-number {
+    color: #FF5210;
+}
+
+/* FOOTER */
+
+footer {
+  font-size: 16px;
+  line-height: 23px;
+}
+
+.footer-link {
+    text-decoration: none;
+    color:  #434B53;
+}
+
+.footer-link:hover {
+    color:  #FF5210;
+}
